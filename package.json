@@ -1,0 +1,27 @@
+{
+  "name": "mouse-race",
+  "version": "0.0.1",
+  "description": "Mouse Racing Game",
+  "source": "src/index.js",
+  "scripts": {
+    "start": "parcel src/index.html -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mouse",
+    "racing"
+  ],
+  "author": "Andy & Caroline Smith",
+  "license": "ISC",
+  "dependencies": {
+    "kaboom": "^2000.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "parcel-reporter-static-files-copy": "^1.3.0"
+  },
+  "staticFiles": {
+    "staticPath": "public"
+  }
+}
